@@ -53,7 +53,7 @@ class ManageEmployes():
 
 
 
-connexion = ManageEmployes("root", "IamBatman!567", "job7")
+connexion = ManageEmployes("root", "", "job7")
 
 connexion.createEmploye("TOTO", "Titi", 1200, 2)
 connexion.deleteEmploye(13)
